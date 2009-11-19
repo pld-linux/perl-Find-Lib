@@ -28,7 +28,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Helper to smartly find libs to use in the filesystem tree
+Helper to smartly find libs to use in the filesystem tree.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
