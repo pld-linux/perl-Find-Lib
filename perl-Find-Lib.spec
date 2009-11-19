@@ -9,7 +9,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Find
 %define		pnam	Lib
-Summary:	Find::Lib - helper to smartly find libs to use in the filesystem tree 
+Summary:	Find::Lib - helper to smartly find libs to use in the filesystem tree
 Name:		perl-Find-Lib
 Version:	1.01
 Release:	0.1
