@@ -11,19 +11,16 @@
 %define		pnam	Lib
 Summary:	Find::Lib - helper to smartly find libs to use in the filesystem tree
 Name:		perl-Find-Lib
-Version:	1.01
-Release:	0.1
+Version:	1.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Find/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8986f9679a88fb265a5e5cf4720f22a1
+Source0:	http://search.cpan.org/CPAN/authors/id/Y/YA/YANNK/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	bf5619b4ba1945320eccef69b028c453
 URL:		http://search.cpan.org/dist/Find-Lib/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with autodeps} || %{with tests}
-# foo
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
