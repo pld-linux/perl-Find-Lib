@@ -6,7 +6,6 @@
 %bcond_without	autodeps	# don't BR packages needed only for resolving deps
 %bcond_with	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Find
 %define		pnam	Lib
 Summary:	Find::Lib - helper to smartly find libs to use in the filesystem tree
